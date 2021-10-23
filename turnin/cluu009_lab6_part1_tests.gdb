@@ -51,7 +51,7 @@ checkResult
 
 test "Third LED: PORTB = 0x04"
 continue 1
-expectPORTC 0x04
+expectPORTB 0x04
 checkResult
 
 # Report on how many tests passed/tests ran
